@@ -1,0 +1,38 @@
+
+
+body{
+         
+         background-color : #FAEBD7;
+
+}
+ .wrapper {
+             display : grid;
+             grid-template-columns : 1fr 1fr 1fr;
+             width : 100%;
+            
+}
+.lpu {
+         background-color : white;
+         border : 1px solid black;
+		 margin : 20px;
+         padding : 10px;
+         border-radius : 10px;
+}
+.rvrjc {
+        background-color : white;
+        border : 1px solid black;
+        margin : 20px;
+        padding : 10px;
+        border-radius : 10px;
+}
+.bec {
+        background-color : white;
+        border : 1px solid black;
+        margin : 20px;
+        padding : 10px;
+        border-radius : 10px;
+}
+@media screen and (max-width :400px) {
+       .wrapper {grid-template-columns :1fr;}
+       }
+
